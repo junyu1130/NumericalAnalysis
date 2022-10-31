@@ -1,0 +1,12 @@
+A = [4 0; 3 1];
+B = [1 2; 1 1];
+C = [2 1; 1 -1; 2 1];
+D = [4 8 1; 0 2 -2; 3 6 7];
+[QA, RA] = qr_classical(A)
+[QA_, RA_] = qr(A, 0);
+[QB, RB] = qr_classical(B)
+[QB_, RB_] = qr(B, 0);
+[QC, RC] = qr_classical(C)
+[QC_, RC_] = qr(C, 0);
+[QD, RD] = qr_classical(D)
+[QD_, RD_] = qr(D, 0);

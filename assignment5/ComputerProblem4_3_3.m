@@ -1,0 +1,12 @@
+A = [4 0; 3 1];
+B = [1 2; 1 1];
+C = [2 1; 1 -1; 2 1];
+D = [4 8 1; 0 2 -2; 3 6 7];
+[QA, RA] = qr_factorization(A)
+[QA_, RA_] = qr(A);
+[QB, RB] = qr_factorization(B)
+[QB_, RB_] = qr(B);
+[QC, RC] = qr_factorization(C)
+[QC_, RC_] = qr(C);
+[QD, RD] = qr_factorization(D)
+[QD_, RD_] = qr(D);
